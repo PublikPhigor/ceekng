@@ -16,11 +16,11 @@ body {
 }
 
 .btn {
-    background: #005DA5;
+    background: #03045E;
     color: #FFF;
     font-size: 1rem;
     font-weight: bold;
-    padding: 5px 20px;
+    padding: 10px 20px;
     outline: none;
     border-radius: 10px;
     display: block;
@@ -34,7 +34,7 @@ body {
 
 button {
     font-family: 'Montserrat';
-    background: #005DA5;
+    background: #03045E;
     color: #FFF;
     padding: 10px 20px;
     outline: none;
@@ -66,7 +66,7 @@ ul {
 }
 
 p, a, li {
-    font-family: 'Monserrat';
+    font-family: 'Montserrat';
     font-size: 1rem;
     font-weight: normal;
 }
@@ -149,8 +149,8 @@ header {
 
         .get-started {
             text-align: center;
-            width: 128px;
-            max-height: 24px;
+            width: 180px;
+            max-height: 40px;
         }
 
 
@@ -201,6 +201,22 @@ header {
     .phone {
         max-width: 500px;
     }
+
+
+    /* third page */
+    .logo-page {
+        max-width: 20%;
+    }
+        .logo-page img {
+            margin: 60% 10% 0 0;
+            max-width: 100%;
+        }
+
+    .logo-page-1 {
+        margin-left: 50px;
+        max-width: 38%;
+    }
+
 
     /* steps */
 
@@ -331,7 +347,11 @@ footer {
     footer a {
         text-decoration: none;
         color: #FFF;
-    }
+        font-weight: 500;
+    }   
+        footer a:hover {
+            font-weight: bold;
+        }
 
     /* form */
 
@@ -356,8 +376,16 @@ footer {
                 width: 46.5%;
             }
 
+                .flex-input input:hover {
+                    width: 48%;
+                }
+
+                .flex-input input:active {
+
+                }
+
         .input-pad {
-            padding: 15px 10px;
+            padding: 7px 10px;
         }
 
         .sub-mit {
@@ -373,6 +401,10 @@ footer {
             margin-top: 10px;
         }
 
+            .sub-mit:hover {
+                background: #CCC;
+            }
+
         form input::placeholder, textarea::placeholder {
             color: #03045E;
             font-weight: bold;
@@ -383,6 +415,9 @@ footer {
             max-width: 99%;
         }
 
+            .text-area:hover {
+                padding: 5px;
+            }
         /* connect */
 
         .mail {
@@ -397,7 +432,7 @@ footer {
                 padding: 5px 20px;
                 color: #FFF;
                 margin-right: 10px;
-                font-weight: bold;
+                font-weight: 500;
                 border-right: 2px solid #FFF ;
             }
                 .mail p:last-child {
