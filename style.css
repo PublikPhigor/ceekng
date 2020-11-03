@@ -15,6 +15,10 @@ body {
     overflow: hidden;
 }
 
+.flex {
+    display: flex;
+}
+
 .btn {
     background: #03045E;
     color: #FFF;
@@ -139,7 +143,7 @@ header {
     header li {
         float: left;
         display: inline-block;
-        padding-right: 30px;
+        padding-right: 50px;
     }
 
     header a {
@@ -327,7 +331,7 @@ header {
 /* PRICING PAGE */
 .pricing-list {
     text-align: center;
-    margin: 20px auto;
+    margin: 100px auto;
     max-width: 80%;
 }
     .choose {
@@ -430,6 +434,112 @@ header {
 
 
 
+
+/* LOGIN PAGE */
+.login-box {
+    background-image: url("img/bg.png");
+    background-size: cover;
+    width: 50%;
+    min-height: 400px;
+    margin-left: 0;
+}
+
+    .login-box img {
+        margin: 0 0 0 30%;
+        min-width: 50%;
+    }
+
+.login-page {
+    width: 50%;
+}
+
+    .login-page form {
+        width: 60%;
+        font-family: 'Montserrat';
+        margin: auto;
+    }
+
+        .login-page form p {
+            text-align: center;
+            color: #4B98F9;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+    .form-head {
+        color: #73A1C2;
+        background-color: #D1E4F3;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+        .form-head:hover {
+            font-weight: bolder;
+        }
+
+        .current-login {
+            background-color: #FFF !important;
+            cursor: not-allowed;
+        }
+
+    .login-flex {
+        justify-content: space-between;
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .login-flex-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-pad {
+        padding: 10px 5px;
+        margin-bottom: 15px;
+        border: 1px solid #0077B6;
+        border-radius: 7px;
+    }
+        .login-pad::placeholder {
+            color: #4B98F9;
+            font-weight: 500;
+        }
+
+        input[type=submit] {
+            color: #FFF;
+            background-color: #03045E;
+            text-transform: uppercase;
+            border: none;
+            font-weight: bold;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+            input[type=submit]:hover {
+                color: #03045E;
+                background-color: #FFF;
+                border: 1px solid #03045E;
+            }
+
+    .flex input[type=checkbox] {
+        margin: 8px 0;
+        color: #4B98F9;
+    }
+
+    .flex label {
+        margin-left: 5px;
+    }
+        .flex a {
+            text-decoration: none;
+            color: #4B98F9;
+            font-size: 0.9rem;
+        }
+
+    .login-icons {
+        display: flex;
+    }
+        .login-icon {
+            color: #000;
+        }
 
     /* footer */
 footer {
