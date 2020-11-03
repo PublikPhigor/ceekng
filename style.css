@@ -71,6 +71,10 @@ p, a, li {
     font-weight: normal;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1, h2, h3, h4 {
     font-family: "Roboto";
     font-weight: bold;
@@ -105,12 +109,15 @@ p {
     font-family: "Montserrat";
 }
 
+.capitalise {
+    text-transform: uppercase;
+}
 
-    .mockup {
-        max-width: 350px;
-        max-height: 500px;
-        margin: auto;
-    }
+.mockup {
+    max-width: 350px;
+    max-height: 500px;
+    margin: auto;
+}
 
 /* header */
 header {
@@ -314,6 +321,113 @@ header {
         .store:hover {
             height: 42px;
         }
+
+
+
+/* PRICING PAGE */
+.pricing-list {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 80%;
+}
+    .choose {
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 2rem;
+        color: #186AA5;
+    }
+
+    .plans {
+        min-height: 550px;
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+    }
+        .plans hr {
+            width: 80%;
+            color: #0077B64D;
+        }
+
+        .plan {
+            background-color: #0077B64D;
+            width: 27%;
+            max-height: 458px;
+            box-sizing: border-box;
+            vertical-align: middle;
+            margin: 20px 0;
+        }
+            .plan h2, .plan h4, .plan-b h2, .plan-b h4 {
+                font-family: 'Roboto';
+                font-weight: bold;
+                color: #186AA5;
+            }
+
+            .plan-b h2, .plan-b h4 {
+                color: #FFF;
+            }
+                .plan-b h2 {
+                    margin-top: 50px;
+                }
+
+            .plan p {
+                color: #186AA5;
+            }
+
+        .plans a {
+            margin: 0 auto;
+        }
+
+        .plan-b {
+            background-color: #03045E;
+            color: #FFF;
+            max-height: 505px;
+            width: 32%;
+            box-sizing: border-box;
+            vertical-align: middle;
+        }
+
+        .plan-b p {
+            color: #FFF;
+            font-size: 0.8rem;
+            margin-bottom: 25px;
+        }
+            .first-p {
+                margin-top: 0;
+            }
+            .last-p {
+                margin-bottom: -2px !important;
+            }
+
+        .make-payment {
+            max-width: 180px;
+            margin: 30px auto;
+            color: #FFF;
+            background-color: #00B4D8;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+            .make-payment:hover {
+                background-color: #FFF;
+            }
+               
+            .make-payment-b {
+                background-color: #FFF;
+            }
+            
+            .make-payment:hover {
+                font-weight: bolder;
+            }
+
+                .make-payment-b p {
+                    color: #00B4D8;
+                }
+
+            .make-payment p {
+                font-weight: 500;
+                margin: 0;
+                font-size: 0.8rem;
+            }
+
 
 
 
